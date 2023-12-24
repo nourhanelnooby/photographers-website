@@ -1,0 +1,239 @@
+body{
+    background-color:#282113;
+}
+.banner-card1{
+    position: relative;
+}
+
+.banner-card1 img { 
+    max-width: 100;
+    position: relative;
+    width: 1440px;
+    height: 843;
+    top: 0;
+    left: 0;
+}
+.banner-text1{
+    position: absolute;
+    font-size: 40px;
+    font-family: "Open Sans-Bold", Helvetica;
+    font-weight: 700;
+    width: 404px;
+    height: 108px;
+    top: 70%;
+    left: 0;
+    color: #fff;
+    padding: 20px;
+    letter-spacing: 900;    
+}
+.bannedr-text1 h4{
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom:5px;
+}
+   
+   body{
+    min-height: 100vh;
+    background:url('Tomandfran_stgileshouse_lauradeanphotography_dorsetweddingphotographer-53-scaled.jpg') no repeat;
+
+   }
+
+   .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background:#282113;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+   }
+   .navbar a {
+    position: relative;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 90px;
+   }
+   .navbar a::before{
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: .3s;
+   }
+   .navbar a:hover::before{
+    width: 100%;
+   }
+
+   .banner-text{
+    font-size: 40px;
+   font-family: "Open Sans";
+   font-weight: 700;
+   color: rgba(255, 255, 255, 1);
+   width: 966px;
+   height: 54px;
+   }
+   .bannedr-text{
+    font-size: 24px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    width: 1061px;
+    height: 99px;
+   }
+    
+
+   .image {
+    width: 1522px;
+    height: 843px;
+  }
+  
+  .image .tomandfran {
+    position: fixed;
+    width: 1440px;
+    height: 843px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+
+
+.label {
+    width: 966px;
+    height: 54px;
+  }
+  
+  .label .text-wrapper {
+    position: relative;
+    top: 0;
+    left: 20%;
+    font-family: "Open Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+  }
+
+
+.labell{
+  position: relative;
+  top: 0;
+  left: 20%;
+  font-family: "Open Sans-Bold", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: left;
+  text-wrap: balance;
+}
+
+.labell2{
+position: relative;
+  top: 0;
+  left: 0%;
+  font-family: "Open Sans-Bold", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: left;
+}
+
+
+.card{
+    background: #282113;
+    width: 750px;
+    padding: 3rem;
+}
+
+.card__image{
+    width: 1440px;
+    height: 312px;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    display: flex;
+    margin: auto;
+    align-items: center; 
+}
+.text{
+    position: absolute;
+    font-size: 40px;
+    font-family: "Open Sans-Bold", Helvetica;
+    font-weight: 700;
+    width: 404px;
+    height: 108px;
+    top: 1800%;
+    left: 0;
+    color: #fff;
+    letter-spacing: 900;  
+    line-height:0px;
+}
+
+.ftext{
+    color: #fff;
+    font-family: "Open Sans-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 40px;
+    top: 100%;
+    left: 100;
+   
+}
+  
+.img-resize{
+    max-width: 100;
+    position: relative;
+    width: 1468px;
+    height: 638px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+*{
+    box-sizing: border-box;
+}
+.column{
+    float: left;
+    width: 25%;
+    padding: 0px;
+    display: flex;
+    column-gap: 20px;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+.column{
+    float: left;
+    width: 25%;
+    padding: 0px;
+    display: flex;
+    column-gap: 20px;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
